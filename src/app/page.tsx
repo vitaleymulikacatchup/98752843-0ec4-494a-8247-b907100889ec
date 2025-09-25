@@ -18,16 +18,14 @@ export default function Home() {
           logoHeight={50}
           buttonText="Buy BRN"
           onButtonClick={() => console.log('Button Clicked')}
-          navItems={
-            [
-              { name: "Hero", id: "hero" },
-              { name: "About", id: "about" },
-              { name: "Roadmap", id: "roadmap" },
-              { name: "How to Buy", id: "how-to-buy" },
-              { name: "Tokenomics", id: "tokenomics" },
-              { name: "Footer", id: "footer" }
-            ]
-          }
+          navItems={[
+            { name: "Hero", id: "hero" },
+            { name: "About", id: "about" },
+            { name: "Roadmap", id: "roadmap" },
+            { name: "How to Buy", id: "how-to-buy" },
+            { name: "Tokenomics", id: "tokenomics" },
+            { name: "Footer", id: "footer" }
+          ]}
         />
       </div>
       <div id="hero" data-section="hero">
@@ -79,10 +77,8 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogo
           logoSrc="/images/logo.svg"
-          logoAlt="BrainRot Logo"
           logoText="BrainRot Coin"
           className="footer-class"
-          svgClassName="svg-footer-class"
         />
       </div>
     </SiteThemeProvider>

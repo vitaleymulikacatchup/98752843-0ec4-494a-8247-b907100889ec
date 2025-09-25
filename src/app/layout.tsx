@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ["/images/logo.svg"],
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/favicon.ico" }
+  icons: { url: "/favicon.ico" }
 };
 
 export default function RootLayout({

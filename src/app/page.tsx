@@ -69,8 +69,8 @@ export default function Home() {
           title="Tokenomics"
           description="An overview of BrainRot Coin's economics and distribution."
           kpiItems={[
-            { value: "100M", description: "Total Supply", icon: null },
-            { value: "50M", description: "Market Cap", icon: null }
+            { value: "100M", description: "Total Supply", icon: { icon: "Coin" } },
+            { value: "50M", description: "Market Cap", icon: { icon: "Coin" } }
           ]}
         />
       </div>
